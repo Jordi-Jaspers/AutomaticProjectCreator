@@ -1,2 +1,4 @@
 # AutomaticProjectCreator
 Creating a shell script and a python script for an UNIX terminal that will automate the process of creating new projects and link them to github. Creating custom commands that creates folders, adds it to my desired directory, opens a web browser, navigates to GitHub, logs in to my account, creates a new repository, then adds the git remote to my local folder, adds a README file, git add and then does a commit called “initial commit”. Finally it then pushes this to master and opens the project folder in VSCode.
+
+# TODO:  
