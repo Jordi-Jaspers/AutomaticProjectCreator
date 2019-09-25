@@ -1,0 +1,13 @@
+1. Go to the root: cd ~
+2. Create new bash script: touch .my_custom_commands.sh
+3. Find hidden folder: ls -a
+4. Use Vim to edit: Vim FILE
+5. Create command & change permission: chmod +x .my_custom_commands.sh
+6. If exited terminal rerun the .sh file: source ~/.my_custom_commands.sh
+7. Add the .sh file to the terminal rc (=run control)
+8. Add "source ~/.my_custom_commands.sh" to the .bashrc file
+    --> Side-note:  Mac OS file that's loaded is called .profile, not .bashrc. 
+                    whatever you place in a .profile file will apply to whatever shell you're using 
+                    (i.e. zhs, bash, et cetera). If you want the contents to affect only the bash shell,
+                    place the contents in a .bash_profile file instead of a .profile file.
+9. done!

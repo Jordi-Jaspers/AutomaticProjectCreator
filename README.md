@@ -29,3 +29,7 @@ Creating a shell script and a python script for an UNIX terminal that will autom
 - code .
 
 # References:  
+https://medium.com/devnetwork/how-to-create-your-own-custom-terminal-commands-c5008782a78e 
+
+https://superuser.com/questions/147043/where-to-find-the-bashrc-file-on-mac-os-x-snow-leopard-and-lion  
+
