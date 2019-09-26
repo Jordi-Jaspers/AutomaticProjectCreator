@@ -14,19 +14,21 @@ Creating a shell script and a python script for an UNIX terminal that will autom
 * Use of Git-commands with Python  
   
 # TODO-List:  
-- Navigate to my projects  
-- Folder Creation with given project name  
-- navigate into that folder  
-- git init  
-- go to GitHub and create the repo  
-- copy the repo remote link  
-- initiate the link in terminal  
-- add the remote link to the folder  
-- Create Readme.md file  
-- git add  
-- git commit  
-- git push  
-- code .  
+- Navigate to my projects  --> ok!  
+- Folder Creation with given project name  --> ok!  
+- navigate into that folder  -> ok!  
+- git init  -> ok!  
+- go to GitHub and create the repo  -> ok!  
+- copy the repo remote link  -> ok!  
+- initiate the link in terminal  -> ok!  
+- add the remote link to the folder  -> ok!  
+- Create Readme.md file  -> ok!  
+- git add  -> ok!  
+- git commit  -> ok!  
+- git push  -> ok!  
+- code .  -> not yet!  
+- Method to remove repo's from the website.
+- Clean up folders in finder.
   
 # Installation:  
 Open Terminal & type the following commands:  
@@ -43,7 +45,14 @@ Add the following line to this file:
   
 Then go to create.py and set the username and password to be your username and password.
 Also make sure to change all directories to your directories so it should be '/Users/<your username>/path/to/your/project'
-  
+
+Open VSCode and type:
+8. Shell and select "Shell Command : Install code in PATH" 
+9. Enter password & you are set-up
+
+# Troubleshooting:  
+It can occur that the terminal gives the following error: "no module named github" try using another pip install. it is probably in the wrong path.  
+    
 # Usage:  
 To run the script type in 'create <name of your folder>'  
   

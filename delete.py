@@ -1,25 +1,32 @@
 import sys
-from selenium import webdriver
+import os
+import shutil
+from github import Github
 
-USERNAME = sys.argv[1]
-PASSWORD = sys.argv[2]
-REPONAME = sys.argv[3]
+PATH                = "/Users/jordi/Google Drive/Coding Projects/"
+USERNAME    = "Jordi-Jaspers"
+PASSWORD    =  "3620Gellik"
 
-browser = webdriver.Chrome()
-browser.get('http://github.com/login')
+def delete():
+  repoExist =  bool(True)
 
-def remove():
-    browser.find_elements_by_xpath("//input[@name='login']")[0].send_keys(USERNAME)
-    browser.find_elements_by_xpath("//input[@name='password']")[0].send_keys(PASSWORD)
-    browser.find_elements_by_xpath("//input[@name='commit']")[0].click()
-    browser.get('https://github.com/silv4b/' + REPONAME + '/settings')
-    browser.find_elements_by_xpath('//*[@id="options_bucket"]/div[9]/ul/li[4]/details/summary')[0].click()
-    browser.find_elements_by_xpath(
-        '//*[@id="options_bucket"]/div[9]/ul/li[4]/details/details-dialog/div[3]/form/p/input')[0].send_keys(REPONAME)
-    browser.find_elements_by_xpath(
-        '//*[@id="options_bucket"]/div[9]/ul/li[4]/details/details-dialog/div[3]/form/button')[0].click()
-    browser.get("https://github.com/" + USERNAME)
+  folderName = str(sys.argv[1])
+  user = Github(USERNAME, PASSWORD).get_user()
 
+  try:
+    repo = user.get_repo(folderName)
+  except:
+    print("Error 404: Repo called {} not found!".format(folderName))
+    repoExist =  bool(False)
+
+  if  repoExist:
+    try:
+      shutil.rmtree(PATH + str(folderName))
+      repo.delete()
+    except OSError as e:
+      print ("Error: %s - %s." % (e.filename, e.strerror))
+    
+    print("Successfully deleted repository & folder called -->{}".format(folderName))
 
 if __name__ == "__main__":
-    remove()
+    delete()
