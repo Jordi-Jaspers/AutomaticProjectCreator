@@ -61,3 +61,5 @@ https://medium.com/devnetwork/how-to-create-your-own-custom-terminal-commands-c5
   
 https://superuser.com/questions/147043/where-to-find-the-bashrc-file-on-mac-os-x-snow-leopard-and-lion  
 
+https://github.com/KalleHallden/  
+
