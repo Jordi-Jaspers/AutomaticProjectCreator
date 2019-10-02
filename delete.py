@@ -4,8 +4,8 @@ import shutil
 from github import Github
 
 PATH                = "/Users/jordi/Google Drive/Coding Projects/"
-USERNAME    = "Jordi-Jaspers"
-PASSWORD    =  "3620Gellik"
+USERNAME    = "USERNAME"
+PASSWORD    =  "PASSWORD"
 
 def delete():
   repoExist =  bool(True)
