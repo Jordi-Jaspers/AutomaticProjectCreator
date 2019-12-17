@@ -34,8 +34,8 @@ Creating a shell script and a python script for an UNIX terminal that will autom
 - Clean up folders in finder. --> ok!
   
 ## Installation:  
-1. Open Terminal & type the following commands:
-
+**1. Open Terminal & type the following commands:**  
+  
 ```
 git clone "https://github.com/Jordi-Jaspers/AutomaticProjectCreator.git"
 cd AutomaticProjectCreator 
@@ -43,31 +43,31 @@ pip install -r python_add-ons.txt
 cp .custom_commands.sh ~
 cd ~  
 ```
-
-**Windows users**
+  
+**Windows users**  
 ```
 nano .bashrc
 ```
-
-**Mac users**
+  
+**Mac users**  
 ```
 nano .bash_profile
 ```
-
-2. Add the following line to this file: 
+  
+**2. Add the following line to this file:**  
 "source ~/.my_commands.sh"
-
-3. Set Github Credentials
+  
+**3. Set Github Credentials**  
 Go to create.py and set the username and password to be your username and password.
 Also make sure to change all directories to your directories so it should be '/Users/<your username>/path/to/your/project'
-
-4. Open VSCode and type:
+  
+**4. Open VSCode and type:**  
 ```
 Shell and select "Shell Command : Install code in PATH" 
 ```
-
-5. Enter password
-
+  
+**5. Enter password.**   
+  
 ## Troubleshooting:  
 It can occur that the terminal gives the following error: "no module named github" try using another pip install. it is probably in the wrong path.  
     
