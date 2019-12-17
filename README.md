@@ -72,7 +72,7 @@ Shell and select "Shell Command : Install code in PATH"
 It can occur that the terminal gives the following error: "no module named github" try using another pip install. it is probably in the wrong path.  
     
 ## Usage:  
-To run the script type in 'create <name of your folder>'  
+To run the script type in 'create --FolderName--'  
   
 ## References:  
 Terminal-commands: <https://medium.com/devnetwork/how-to-create-your-own-custom-terminal-commands-c5008782a78e>
