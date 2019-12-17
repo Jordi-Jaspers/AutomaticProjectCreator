@@ -29,9 +29,9 @@ Creating a shell script and a python script for an UNIX terminal that will autom
 - git add  -> ok!  
 - git commit  -> ok!  
 - git push  -> ok!  
-- code .  -> not yet!  
-- Method to remove repo's from the website.
-- Clean up folders in finder.
+- code .  -> ok!  
+- Method to remove repo's from the website. -> ok!
+- Clean up folders in finder. --> ok!
   
 ## Installation:  
 1. Open Terminal & type the following commands:
