@@ -3,8 +3,8 @@ import os
 from github import Github
 
 PATH                = "/Users/jordi/Google Drive/Coding Projects/"
-USERNAME    = "USERNAME"
-PASSWORD    =  "PASSWORD"
+USERNAME    = "Jordi-Jaspers"
+PASSWORD    =  "3620Gellik"
 
 def create():
     folderName = str(sys.argv[1])
