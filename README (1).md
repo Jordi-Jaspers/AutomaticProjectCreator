@@ -55,11 +55,7 @@ nano .bash_profile
 ```
   
 **2. Add the following line to this file:**  
-alias root="cd ~"
-alias cdp="cd /Users/jordi/Google\ Drive/Coding\ Projects"
-alias cdembed="cd /Users/jordi/Google\ Drive/UHasselt/Master\ Electronic\ Engin$
-
-source ~/.custom_commands.sh
+"source ~/.my_commands.sh"
   
 **3. Set Github Credentials**  
 Go to create.py and set the username and password to be your username and password.
