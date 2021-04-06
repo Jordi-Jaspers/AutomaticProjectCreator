@@ -1,12 +1,9 @@
-import sys
 import os
 import shutil
+import sys
+
 from github import Github
 
-PATH        = "/Users/jordi/Documents/Coding Projects/"
-USERNAME    = "Jordi-Jaspers"
-PASSWORD    = "3620Gellik"
-OAUTH       = "2096304fa2d06f2489ec9b18b5957f662e589131"
 
 def delete():
   repoExist =  bool(True)
